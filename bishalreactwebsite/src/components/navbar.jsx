@@ -1,9 +1,15 @@
 import React from 'react'
+import {useState} from 'react'
+import {close, logo, menu} from '../assets';
+import {navLinks} from '../constants';
 
-const navbar = () => {
+const Navbar = () => {
   return (
-    <div>navbar</div>
+    <nav className='w-full flex py-6 justify-between items-center navbar'>
+      <img src  = {logo} alt= "hoobank" className='w-[124px] h-[32px]'/>
+
+    </nav>
   )
 }
 
-export default navbar
+export default Navbar

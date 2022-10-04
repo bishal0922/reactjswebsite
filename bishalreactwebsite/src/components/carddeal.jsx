@@ -1,9 +1,9 @@
 import React from 'react'
 
-const carddeal = () => {
+const Carddeal = () => {
   return (
-    <div>carddeal</div>
+    <div>Carddeal</div>
   )
 }
 
-export default carddeal
+export default Carddeal
